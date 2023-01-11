@@ -24,8 +24,7 @@ task:
       - ./env.sh
 
   Out_script:
-      - time rclone copy znxtproject:NusantaraProject/maple_dsds/Nusantara-v5.2-13-maple_dsds-Gapps-13112022-OFFICIAL-1715.zip ~/rom/out/target/product/maple -P
-      - time rclone copy znxtproject:NusantaraProject/maple/Nusantara-v5.2-13-maple-Gapps-13112022-OFFICIAL-1817.zip ~/rom/out/target/product/maple -P
+      - time rclone copy znxtproject:CherishOS/maple/Cherish-OS-v4.4-20230111-1006-maple-UNOFFICIAL-GApps.zip ~/rom/out/target/product/maple -P
 
   Build_script:
       - ./repo.sh

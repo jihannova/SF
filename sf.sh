@@ -5,8 +5,8 @@ cd ~/rom/out/target/product/maple
 
 
 maple_dsds=Nusantara-v5*-13-maple_dsds-Gapps-*-OFFICIAL-*.zip
-maple=Nusantara-v5*-13-maple-Gapps-*-OFFICIAL-*.zip
-project=nusantaraproject/maple
+maple=Cherish-OS-v4.4-20230111-1006-maple-UNOFFICIAL-GApps.zip
+project=xperia-xz-premium/CherishOS/tiramisu/maple
 
 # Upload
 expect -c "
@@ -18,12 +18,6 @@ send \"${SF_PASS}\r\"
 set timeout -1
 expect \"sftp>\"
 send \"put $maple\r\"
-expect \"Uploading\"
-expect \"100%\"
-expect \"sftp>\"
-send \"cd ../maple_dsds\r\"
-expect \"sftp>\"
-send \"put $maple_dsds\r\"
 expect \"Uploading\"
 expect \"100%\"
 expect \"sftp>\"
