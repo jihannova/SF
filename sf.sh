@@ -4,10 +4,10 @@ send_maple () {
 cd ~/rom/out/target/product/maple
 
 
-maple_dsds=Nusantara-v5.4-13-maple_dsds-13012023-OFFICIAL-1610.zip
-maple_dsds_gapps=Nusantara-v5.4-13-maple_dsds-Gapps-13012023-OFFICIAL-1536.zip 
-maple=Nusantara-v5.4-13-maple-14012023-OFFICIAL-0219.zip 
-maple_gapps=Nusantara-v5.4-13-maple-Gapps-13012023-OFFICIAL-1420.zip
+maple_dsds=Nusantara-v5.5-13-maple_dsds-OFFICIAL-15022023-0233.zip
+maple_dsds_gapps=Nusantara-v5.5-13-maple_dsds-Gapps-OFFICIAL-15022023-0403.zip
+maple=Nusantara-v5.5-13-maple-OFFICIAL-15022023-0516.zip
+maple_gapps=Nusantara-v5.5-13-maple-Gapps-OFFICIAL-15022023-0436.zip
 project=nusantaraproject/maple  
 
 # Upload
